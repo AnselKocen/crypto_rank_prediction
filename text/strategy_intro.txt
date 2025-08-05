@@ -1,0 +1,7 @@
+market: Only market variables were used for modeling, including momentum, volatility, usd_volume, base_volume, return_sign, long_candle, strev.
+all: All variables were used for modeling, including market variables plus weekly_sentiment and extreme_sentiment.
+enet_EW: Top 20 coins ranked by enet predictions are selected and held equally weighted (long only).
+extra_EW: Top 20 coins ranked by extra predictions are selected and held equally weighted (long only).
+enet_ls: Long top 20 and short bottom 20 coins based on enet ranking, equally weighted on both sides.
+extra_ls: Long top 20 and short bottom 20 coins based on extra ranking, equally weighted on both sides.
+fusion_ls: For coins in both enet and extra top 20, assign long weight of 0.65; if only in one, assign 0.35. Similarly, for bottom 20, assign short weight of -0.65 (both models) or -0.35 (only one).

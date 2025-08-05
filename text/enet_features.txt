@@ -1,0 +1,14 @@
+ElasticNet_all：
+ - v_28d
+ - v_42d
+ - volatility_14
+ - momentum_21
+ - return_sign_consistency_3d
+ - strev_weekly
+ - extremely_positive_ratio
+
+ElasticNet_market：
+ - volatility_14
+ - momentum_21
+ - return_sign_consistency_3d
+ - strev_weekly

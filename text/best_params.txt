@@ -1,0 +1,9 @@
+The following are the optimal hyperparameters for each model after tuning. Based on data from 2020-01-01 to 2025-07-30
+
+enet_all: {'model__alpha': 0.01, 'model__l1_ratio': 0.5}
+
+enet_market: {'model__alpha': 0.01, 'model__l1_ratio': 0.5}
+
+extra_all: {'model__max_depth': 10, 'model__max_features': 'sqrt', 'model__n_estimators': 200}
+
+extra_market: {'model__max_depth': 10, 'model__max_features': 'sqrt', 'model__n_estimators': 200}
