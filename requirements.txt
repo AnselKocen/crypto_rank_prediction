@@ -1,4 +1,4 @@
-streamlit
+streamlit>=1.25
 pandas
 numpy
 matplotlib
@@ -11,3 +11,4 @@ nltk
 wordcloud
 Pillow
 requests
+
